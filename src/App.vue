@@ -25,8 +25,8 @@ export default {
       this.$http.get('/api/login/getAccount')
         .then((response) => {
            //响应成功回调
-          var account=response.body[0].account;
-          var password=response.body[0].password;
+//          var account=response.body[0].account;
+//          var password=response.body[0].password;
           var flag=false;
           for(var i=0;i<response.body.length;i++){
             var account=response.body[i].account;
