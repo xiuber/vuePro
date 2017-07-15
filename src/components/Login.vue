@@ -10,14 +10,17 @@
       还没帐号？
       <router-link class=""  to="/register">去注册</router-link>
     </div>
+    <footerCom ></footerCom>
   </div>
 </template>
 <script>
   import headerCom from '@/components/Header'
+  import footerCom from '@/components/Footer'
   export default {
     name: 'login',
     components: {
-      headerCom
+      headerCom,
+      footerCom
     },
     data() {
       return {
