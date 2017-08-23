@@ -4,10 +4,10 @@
 
 这是一个 vue+node+mongoDB的一个简易的登录注册页面。   
 用到的东西：    
-Vue-Cli    
-Vue-Resource   
-Node + Express   
-MongoDB     
+- Vue-Cli    
+- Vue-Resource   
+- Node + Express   
+- MongoDB     
 
 1.全局安装Vue-Cli       
 - npm install vue-cli -g       
