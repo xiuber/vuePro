@@ -34,6 +34,7 @@
               alert("请填写完整！");
           }else{
           //创建一个账号密码
+          // TODO:注册可用creatAccount接口
             return this.$http.post('/api/login/createAccount',params)
               .then((response) => {
                 //console.log(response)
